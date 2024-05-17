@@ -19,10 +19,6 @@ async function addCelltowersGeoJson(url) {
 }
 addCelltowersGeoJson('geojson/tartu_city_celltowers_edu.geojson');
 
-// Function to reset the map to default settings
-function defaultMapSettings() {
-  map.setView([58.373523, 26.716045], 12);
-}
 // default map settings
 function defaultMapSettings() { map.setView([58.373523, 26.716045], 12)
 }
