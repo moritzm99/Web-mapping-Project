@@ -1,46 +1,30 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
-        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
-        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
-        <link rel="stylesheet" href="styles.css" />
-        <title>Web GIS Application</title>
-    </head>
-    <body>
-        <p></p>
-        <!-- Banner -->
-        <div class="banner">
-            <img src="Resized_radio_tower.jpg" alt="Banner Image" style="width:100%; height:auto;">
-        </div>
-
-        <!-- Navbar -->
-        <nav>
-            <a href="index.html" class="active">Basic Map</a>
-            <a href="chloroplethmap.html">Choropleth Map</a>
-            <a href="heatmap.html">Heatmap</a>
-        </nav>
-        
-   
-
-        <!-- Title -->
-        <div class="title">
-            <h1>Map Visualization Project</h1>
-        </div>
-
-        <!-- Container for Map -->
-        <div class="container">
-            <div id="map" style="height: 700px;"></div>
-            <button class="map-btn" onclick="defaultMapSettings()">Default</button>
-        </div>
-
-        <!-- Footer -->
-        <footer>
-            &copy; Philip Milan Knirsch, Tartu University, 2024
-        </footer>
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-        <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
-        <script src="js/javascript.js"></script>
-    </body>
+!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Web GIS</title>
+  </head>
+  <body>
+    <div>
+        <img src="/Users/moritzmuhlbauer/Library/CloudStorage/OneDrive-TartuÜlikool/Spatial Data on the Web/webProject/img/image-1920x300.jpg" alt="banner">
+    </div>
+    ><nav>
+        <a href="index.html" class= "active">Basic Map</a>
+        <a href="#">Chloropleth Map</a>
+        <a href="#">Heatmap</a>
+    </nav>
+    <div class="block">
+        <h1> Web GIS Application</h1>
+    </div>
+    <div class="container">
+        <div id="map"></div>
+    </div>
+    <footer>
+        &copy; Moritz Mühlbauer, Tartu University, 2024
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="js/javascript.js"></script>
+  </body>
 </html>
